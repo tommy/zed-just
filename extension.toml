@@ -8,4 +8,4 @@ repository = "https://github.com/jackTabsCode/zed-just"
 
 [grammars.just]
 repository = "https://github.com/IndianBoy42/tree-sitter-just"
-commit = "792717c262df6d6fa285c1136a11c23cedadcb0c"
+commit = "f676df848d59ca50f56dd3a534a4472bcf389024"

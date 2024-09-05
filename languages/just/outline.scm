@@ -1,1 +1,9 @@
-(recipe_header name: (_) @name) @item
+(recipe
+  (attribute ((identifier) @attr (#eq? @attr "group")) (string) @context)*
+  (recipe_header
+    name: (identifier) @name
+    (parameters
+        (parameter (identifier) @context))* )) @item
+
+(assignment
+  (identifier) @name) @item

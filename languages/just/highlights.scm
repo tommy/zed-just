@@ -45,6 +45,9 @@
 (function_call
   name: (identifier) @function)
 
+(attribute
+  (identifier) @keyword)
+
 ; Parameters
 
 (parameter
